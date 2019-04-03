@@ -3,3 +3,13 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Welcome to Tic Tac Toe!"
+
+# get the user input, convert it to an index, store it in var index
+index = input_to_index(gets.strip)
+
+#ACCESS the array and put character X
+move(board, index)
+
+display_board(board)
