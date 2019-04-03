@@ -1,4 +1,4 @@
-require_relative "../lib/move.rb"
+clrequire_relative "../lib/move.rb"
 
 describe './bin/move executing a CLI Application' do
   it 'defines a board variable' do
